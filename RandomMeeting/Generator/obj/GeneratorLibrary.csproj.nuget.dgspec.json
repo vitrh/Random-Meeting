@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\Generator\\GeneratorLibrary.csproj": {}
+  },
+  "projects": {
+    "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\ControllerLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\ControllerLibrary.csproj",
+        "projectName": "ControllerLibrary",
+        "projectPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\ControllerLibrary.csproj",
+        "packagesPath": "C:\\Users\\VinhT\\.nuget\\packages\\",
+        "outputPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VinhT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\EmailSystem\\EmailSystemLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\EmailSystem\\EmailSystemLibrary.csproj",
+        "projectName": "EmailSystemLibrary",
+        "projectPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\EmailSystem\\EmailSystemLibrary.csproj",
+        "packagesPath": "C:\\Users\\VinhT\\.nuget\\packages\\",
+        "outputPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\EmailSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VinhT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\ControllerLibrary.csproj": {
+                "projectPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\ControllerLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\Generator\\GeneratorLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\Generator\\GeneratorLibrary.csproj",
+        "projectName": "GeneratorLibrary",
+        "projectPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\Generator\\GeneratorLibrary.csproj",
+        "packagesPath": "C:\\Users\\VinhT\\.nuget\\packages\\",
+        "outputPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\Generator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VinhT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\ControllerLibrary.csproj": {
+                "projectPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\ControllerLibrary\\ControllerLibrary.csproj"
+              },
+              "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\EmailSystem\\EmailSystemLibrary.csproj": {
+                "projectPath": "E:\\aauni\\Programmierprojekt\\grp07\\programm\\RandomMeeting\\EmailSystem\\EmailSystemLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
